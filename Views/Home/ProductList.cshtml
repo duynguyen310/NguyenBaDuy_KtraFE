@@ -1,0 +1,384 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="vi">
+<head>
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <title>Amazon - Product List</title>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="@Url.Content("~/css/style.css")" />
+</head>
+<body>
+    <header class="header">
+
+        <div class="logo">
+            amazon<span>.com</span>
+        </div>
+
+        <div class="location">
+            <i class="fas fa-map-marker-alt"></i>
+
+            <div>
+                <small>Deliver to</small>
+                <b>NguyenBaDuy</b>
+            </div>
+        </div>
+
+        <div class="search-box">
+
+            <select>
+                <option>All</option>
+            </select>
+
+            <input type="text" value="cleaning tools" />
+
+            <button>
+                <i class="fas fa-search"></i>
+            </button>
+
+        </div>
+
+        <div class="language">
+            🇺🇸 EN
+        </div>
+
+        <div class="account">
+            <small>Hello, sign in</small>
+            <b>Account & Lists</b>
+        </div>
+
+        <div class="orders">
+            <small>Returns</small>
+            <b>& Orders</b>
+        </div>
+
+        <div class="cart">
+            <i class="fas fa-shopping-cart"></i>
+            <b>Cart</b>
+        </div>
+
+    </header>
+    <nav class="menu">
+
+        <a href="#">
+            <i class="fas fa-bars"></i> All
+        </a>
+
+        <a href="#">Today's Deals</a>
+        <a href="#">Prime Video</a>
+        <a href="#">Buy Again</a>
+        <a href="#">Customer Service</a>
+        <a href="#">Registry</a>
+        <a href="#">Gift Cards</a>
+        <a href="#">Sell</a>
+
+    </nav>
+    <div class="result-bar">
+
+        <span>
+            1-48 of over 40,000 results for
+        </span>
+
+        <b>"cleaning tools"</b>
+
+        <select>
+            <option>Sort by: Featured</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+        </select>
+
+    </div>
+    <main class="main-container">
+        <aside class="sidebar">
+
+            <h3>Popular Shopping Ideas</h3>
+
+            <a href="#">Window</a>
+            <a href="#">Bathing</a>
+            <a href="#">Household</a>
+            <a href="#">Tile</a>
+            <a class="blue" href="#">See more</a>
+
+
+            <h3>Customer Reviews</h3>
+
+            <div class="stars">
+                ★★★★☆ <span>& Up</span>
+            </div>
+
+
+            <h3>Deals & Discounts</h3>
+
+            <a href="#">All Discounts</a>
+            <a href="#">Today's Deals</a>
+
+
+            <h3>Price</h3>
+
+            <input type="range" />
+
+            <p>$0 - $3,700+</p>
+
+            <a href="#">Up to $10</a>
+            <a href="#">$10 to $15</a>
+            <a href="#">$15 to $20</a>
+            <a href="#">$20 to $25</a>
+            <a href="#">$25 & above</a>
+
+
+            <h3>Department</h3>
+
+            <a href="#">Household Cleaning Tools</a>
+            <a href="#">Household Cleaning Brushes</a>
+            <a href="#">Household Mops</a>
+
+        </aside>
+        <section class="products">
+
+            <h2>Results</h2>
+
+            <p class="note">
+                Check each product page for other buying options.
+                Price and other details may vary based on product size and color.
+            </p>
+            <div class="product-grid">
+                <div class="product-card">
+
+                    <div class="product-img">
+                        <img src="@Url.Content("~/images/picture1.jpg")"
+                             alt="Product 1" />
+                    </div>
+
+                    <small>Sponsored</small>
+
+                    <h3>
+                        Electric Spin Scrubber, 2025 New
+                        Cordless Cleaning Brush for Home
+                    </h3>
+
+                    <div class="rating">
+                        ★★★★☆ <span>1,661</span>
+                    </div>
+
+                    <p class="sold">
+                        900+ bought in past month
+                    </p>
+
+                    <div class="price">
+                        <sup>$</sup>39<sup>99</sup>
+                    </div>
+
+                    <p class="delivery">
+                        Delivery Tue, Nov 4
+                    </p>
+
+                    <button class="add-cart">
+                        Add to cart
+                    </button>
+
+                </div>
+                <div class="product-card">
+
+                    <div class="product-img">
+                        <img src="@Url.Content("~/images/picture2.jpg")"
+                             alt="Product 2" />
+                    </div>
+
+                    <small>Sponsored</small>
+
+                    <h3>
+                        Casabella Power Spin Scrubber,
+                        Extendable Cleaning Brush
+                    </h3>
+
+                    <div class="rating">
+                        ★★★★☆ <span>776</span>
+                    </div>
+
+                    <p class="sold">
+                        200+ bought in past month
+                    </p>
+
+                    <div class="price">
+                        <sup>$</sup>49<sup>99</sup>
+                    </div>
+
+                    <p class="delivery">
+                        Delivery Tue, Nov 4
+                    </p>
+
+                    <button class="add-cart">
+                        Add to cart
+                    </button>
+
+                </div>
+                <div class="product-card">
+
+                    <div class="product-img">
+                        <img src="@Url.Content("~/images/picture3.jpg")"
+                             alt="Product 3" />
+                    </div>
+
+                    <small>Sponsored</small>
+
+                    <h3>
+                        Electric Spin Scrubber Cordless
+                        Cleaning Brush with Digital Display
+                    </h3>
+
+                    <div class="rating">
+                        ★★★★★ <span>1,154</span>
+                    </div>
+
+                    <p class="sold">
+                        2K+ bought in past month
+                    </p>
+
+                    <div class="price">
+                        <sup>$</sup>35<sup>50</sup>
+                    </div>
+
+                    <p class="delivery">
+                        Delivery Tue, Nov 4
+                    </p>
+
+                    <button class="add-cart">
+                        Add to cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    <section class="recommend">
+
+        <h2>
+            Customers who viewed items in your browsing history also viewed
+        </h2>
+
+        <div class="recommend-list">
+
+            <div class="recommend-item">
+                <img src="@Url.Content("~/images/picture4.jpg")" alt="Bag" />
+                <a href="#">Tommy Hilfiger Womens Handbag</a>
+                <div class="rating">★★★★★</div>
+                <b>$105.99</b>
+            </div>
+
+            <div class="recommend-item">
+                <img src="@Url.Content("~/images/picture5.jpg")" alt="Bag" />
+                <a href="#">Tommy Hilfiger Shoulder Bag</a>
+                <div class="rating">★★★★☆</div>
+                <b>$87.99</b>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="recommend">
+
+        <h2>
+            Recommended based on your browsing history
+        </h2>
+
+        <div class="recommend-list">
+
+            <div class="recommend-item">
+                <img src="@Url.Content("~/images/picture6.jpg")" alt="Bag" />
+                <a href="#">Leather Tote for Women</a>
+                <div class="rating">★★★★☆</div>
+                <b>$55.99</b>
+            </div>
+
+            <div class="recommend-item">
+                <img src="@Url.Content("~/images/picture7.jpg")" alt="Bag" />
+                <a href="#">Women's Genuine Leather Bag</a>
+                <div class="rating">★★★★★</div>
+                <b>$75.99</b>
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="footer">
+
+        <div class="footer-column">
+            <h4>Amazon Music</h4>
+            <p>Stream millions of songs</p>
+
+            <h4>Amazon Business</h4>
+            <p>Everything For Your Business</p>
+
+            <h4>IMDbPro</h4>
+            <p>Get Info Entertainment Professionals Need</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Amazon Ads</h4>
+            <p>Reach customers wherever they spend their time</p>
+
+            <h4>AmazonGlobal</h4>
+            <p>Ship Orders Internationally</p>
+
+            <h4>Kindle Direct Publishing</h4>
+            <p>Indie Digital & Print Publishing</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>6pm</h4>
+            <p>Score deals on fashion brands</p>
+
+            <h4>Amazon Web Services</h4>
+            <p>Scalable Cloud Computing Services</p>
+
+            <h4>Prime Video Direct</h4>
+            <p>Video Distribution Made Easy</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>AbeBooks</h4>
+            <p>Books, art & collectibles</p>
+
+            <h4>Audible</h4>
+            <p>Listen to Books & Original Audio</p>
+
+            <h4>Shopbop</h4>
+            <p>Designer Fashion Brands</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Goodreads</h4>
+            <p>Book reviews & recommendations</p>
+
+            <h4>Zappos</h4>
+            <p>Shoes & Clothing</p>
+
+            <h4>Ring</h4>
+            <p>Smart Home Security Systems</p>
+        </div>
+
+    </footer>
+
+
+    <div class="footer-bottom">
+
+        Conditions of Use &nbsp;&nbsp;
+        Privacy Notice &nbsp;&nbsp;
+        Consumer Health Data Privacy Disclosure
+
+        <br /><br />
+
+        © 1996-2026, Amazon.com, Inc. or its affiliates
+
+    </div>
+
+</body>
+</html>
